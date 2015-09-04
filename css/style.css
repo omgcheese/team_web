@@ -1,0 +1,62 @@
+*	{
+	margin: 0;
+  	padding: 0;
+	
+}
+
+.header {
+	position: initial;
+	margin: 0 auto;
+	background-color: #012E34;
+	min-height: 3em;
+}
+
+.nav {
+	list-style-type: none;
+	padding: 20px 0;
+}
+
+.nav li{
+	padding: 0 20px;
+	display: inline;
+	color: white;
+	margin: 0;
+}
+
+.footer {
+	margin: 0 auto;
+	background-color: #012E34;
+	min-height: 3em;
+
+}
+
+.footer article {
+	color: white;
+}
+
+.content {
+	min-height: 300px;
+	max-height: 1000px;
+
+}
+
+#coverPhoto	{
+	background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg) no-repeat center center;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.intro {
+	margin: 100px;
+	border-style: solid;
+	border-color: red;
+}
+
+h1 {
+	
+	text-align: center;
+	position: relative;
+	color: #012E34;
+}
