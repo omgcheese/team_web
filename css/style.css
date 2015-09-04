@@ -9,6 +9,7 @@
 	margin: 0 auto;
 	background-color: #012E34;
 	min-height: 3em;
+	font-family: 'Orbitron', sans-serif;
 }
 
 .nav {
@@ -25,7 +26,7 @@
 
 .footer {
 	margin: 0 auto;
-	background-color: #012E34;
+	background-color: #012E36;
 	min-height: 3em;
 
 }
@@ -49,14 +50,24 @@
 }
 
 .intro {
-	margin: 100px;
-	border-style: solid;
-	border-color: red;
+	padding-top: 15%;
 }
 
 h1 {
-	
+	font-family: 'Orbitron', sans-serif;
+	font-size: 5em;
+	font-weight: 500;
 	text-align: center;
 	position: relative;
-	color: #012E34;
+	color: #012E36;
+}
+
+h2 {
+	padding-top: 2%;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+	position: relative;
+	color: #012F36;
 }
