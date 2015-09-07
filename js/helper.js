@@ -1,13 +1,16 @@
 $(document).ready(function()	{
-	var windowSize = $(window).height();
-	$(".content").css("height", windowSize);
-	$("#coverPhoto").css("height", windowSize);
-	//console.log(windowSize);
+	WindowSize();
 });
 
 $(window).resize(function()	{
-	windowSize = $(window).height();
-	$(".content").css("height", windowSize);
-	$("#coverPhoto").css("height", windowSize);
-
+	WindowSize();
 });
+
+function WindowSize() {
+	var windowSizeHeight = $(window).height(),
+		windowSizeWidth = $(window).width();
+	$(".content").css("height", windowSizeHeight);
+	$("#coverPhoto").css("height", windowSizeHeight);
+
+}
+
