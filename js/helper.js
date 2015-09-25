@@ -11,6 +11,7 @@ function WindowSize() {
 		windowSizeWidth = $(window).width();
 	$(".content").css("height", windowSizeHeight);
 	$("#coverPhoto").css("height", windowSizeHeight);
+	
 
 }
 

@@ -4,16 +4,60 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"margi",
 				"margin"
 			],
 			[
 				"border-col",
 				"border-color"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"text",
@@ -38,10 +82,6 @@
 			[
 				"ar",
 				"article	Tag"
-			],
-			[
-				"padding",
-				"padding-right"
 			],
 			[
 				"h",
@@ -140,20 +180,8 @@
 				"margin-right"
 			],
 			[
-				"padd",
-				"padding-right"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"or",
 				"orange"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"al",
@@ -162,19 +190,52 @@
 			[
 				"ali",
 				"vertical-align"
-			],
-			[
-				"color",
-				"color"
-			],
-			[
-				"border",
-				"border-box"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix",
+				"name": "Base color: #246169"
+			}
+		},
+		{
+			"file": "js/helper.js",
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jinwooklee/Desktop/Portfolio/frontend-nanodegree-resume/js/helper.js",
+			"settings":
+			{
+				"buffer_size": 8662,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -212,6 +273,7 @@
 	},
 	"file_history":
 	[
+		"/Users/jinwooklee/Desktop/Portfolio/frontend-nanodegree-resume/js/resumeBuilder.js",
 		"/Users/jinwooklee/Desktop/Portfolio/frontend-nanodegree-resume/index.html",
 		"/Users/jinwooklee/Desktop/Portfolio/jQuery Sample Site/app.js",
 		"/Users/jinwooklee/Desktop/Portfolio/Project-Part-1-Start/index.html",
@@ -284,13 +346,150 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1117,
+								1117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 484.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 1727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1727,
+								1727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 735.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "readme.txt",
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Base color: #246169",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/helper.js",
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jinwooklee/Desktop/Portfolio/frontend-nanodegree-resume/js/helper.js",
+					"settings":
+					{
+						"buffer_size": 8662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1246.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -361,6 +560,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 195.0,
 	"status_bar_visible": true
 }
